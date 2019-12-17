@@ -1,0 +1,2426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Styleguides</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Styleguides" />
+    <meta name="keywords" content="Styleguides" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="css/main.css" />
+    <style>
+      body {
+        background-color: #fff;
+      }
+
+      .code-example {
+        margin-bottom: 25px;
+      }
+
+      .code-example .demo {
+        box-sizing: border-box;
+        padding: 1.5rem;
+        position: relative;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem 0.25rem 0 0;
+      }
+
+      .code-example pre {
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.125);
+        padding: 15px;
+        border-radius: 0 0 0.25rem 0.25rem;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-between align-items-center pt-4 pb-4">
+        <div class="col-auto mr-auto">
+          <h2>Beagle Style Guides</h2>
+        </div>
+        <div class="col-auto"><a class="btn btn-success btn-sm" href="links.html">Back to list of page</a></div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <div class="list-group" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="position: sticky; top: 0"><a class="list-group-item active" data-toggle="pill" role="tab" aria-selected="true" id="v-pills-colors-tab" href="#v-pills-colors" aria-controls="v-pills-colors">Colors</a><a class="list-group-item" data-toggle="pill" role="tab" aria-selected="true" id="v-pills-buttons-tab" href="#v-pills-buttons" aria-controls="v-pills-buttons">Buttons</a><a class="list-group-item" data-toggle="pill" role="tab" aria-selected="true" id="v-pills-input-tab" href="#v-pills-input" aria-controls="v-pills-input">Input</a><a class="list-group-item" data-toggle="pill" role="tab" aria-selected="true" id="v-pills-checkbox-tab" href="#v-pills-checkbox" aria-controls="v-pills-checkbox">Checkbox</a><a class="list-group-item" data-toggle="pill" role="tab" aria-selected="true" id="v-pills-radio-button-tab" href="#v-pills-radio-button" aria-controls="v-pills-radio-button">Radio-button</a><a class="list-group-item" data-toggle="pill" role="tab" aria-selected="true" id="v-pills-switch-tab" href="#v-pills-switch" aria-controls="v-pills-switch">Switch-button</a><a class="list-group-item" data-toggle="pill" role="tab" aria-selected="true" id="v-pills-selectbox-tab" href="#v-pills-selectbox" aria-controls="v-pills-selectbox">Select</a><a class="list-group-item" data-toggle="pill" role="tab" aria-selected="true" id="v-pills-file-tab" href="#v-pills-file" aria-controls="v-pills-file">File Upload</a><a class="list-group-item" data-toggle="pill" role="tab" aria-selected="true" id="v-pills-date-picker-tab" href="#v-pills-date-picker" aria-controls="v-pills-date-picker">Date Picker</a>
+          </div>
+        </div>
+        <div class="col-10">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" role="tabpanel" id="v-pills-colors" aria-labelledby="v-pills-colors-tab">
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #fff; width: 100%; height: 100px"></div>
+                    <pre><code>$cl-white: #fff</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #000; width: 100%; height: 100px"></div>
+                    <pre><code>$cl-black: #000</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #4285f4; width: 100%; height: 100px"></div>
+                    <pre><code>$cl-primary: #4285f4</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #4c8bf5; width: 100%; height: 100px"></div>
+                    <pre><code>$bg-primary-hover: #4c8bf5</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #2572f2; width: 100%; height: 100px"></div>
+                    <pre><code>$bg-primary-actice: #2572f2</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #404040; width: 100%; height: 100px"></div>
+                    <pre><code>$cl-secondary: #404040</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #e3e3e3; width: 100%; height: 100px"></div>
+                    <pre><code>$bg-secondary-active: #e3e3e3</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #fbbc05; width: 100%; height: 100px"></div>
+                    <pre><code>$cl-warning: #fbbc05</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #fbbf0f; width: 100%; height: 100px"></div>
+                    <pre><code>$bg-warning-hover: #fbbf0f</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #dea604; width: 100%; height: 100px"></div>
+                    <pre><code>$bg-warning-actice: #dea604</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #ea4335; width: 100%; height: 100px"></div>
+                    <pre><code>$cl-danger: #ea4335</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #eb4c3e; width: 100%; height: 100px"></div>
+                    <pre><code>$bg-danger-hover: #eb4c3e</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #e72919; width: 100%; height: 100px"></div>
+                    <pre><code>$bg-danger-actice: #e72919</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #34a853; width: 100%; height: 100px"></div>
+                    <pre><code>$cl-success: #34a853</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #36b057; width: 100%; height: 100px"></div>
+                    <pre><code>$bg-success-hover: #36b057</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #2d9147; width: 100%; height: 100px"></div>
+                    <pre><code>$bg-success-actice: #2d9147</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h3>Color White Smoke</h3>
+              <div class="row">
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #fafafa; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-whitesmoke-1: #fafafa</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #f7f7f7; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-whitesmoke-2: #f7f7f7</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #f5f5f5; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-whitesmoke-3: #f5f5f5</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #f2f2f2; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-whitesmoke-4: #f2f2f2</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #f0f0f0; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-whitesmoke-5: #f0f0f0</div>
+                  </div>
+                </div>
+              </div>
+              <h3>Color Light Gray</h3>
+              <div class="row">
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #eee; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-lightgray-1: #eee</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #ededed; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-lightgray-2: #ededed</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #ebebeb; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-lightgray-3: #ebebeb</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #e6e6e6; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-lightgray-4: #e6e6e6</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #e4e4e4; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-lightgray-5: #e4e4e4</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #e3e3e3; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-lightgray-6: #e3e3e3</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #e0e0e0; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-lightgray-7: #e0e0e0</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #dee2e6; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-lightgray-8: #dee2e6</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #d5d8de; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-lightgray-9: #d5d8de</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #d1d1d1; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-lightgray-10: #d1d1d1</div>
+                  </div>
+                </div>
+              </div>
+              <h3>Color Silver</h3>
+              <div class="row">
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #ccc; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-silver-1: #ccc</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #c9c9c9; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-silver-2: #c9c9c9</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #c4c4c4; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-silver-3: #c4c4c4</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #c2c2c2; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-silver-4: #c2c2c2</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #bdc0c7; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-silver-5: #bdc0c7</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #bababa; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-silver-6: #bababa</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #b3b3b3; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-silver-7: #b3b3b3</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #b0b0b0; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem;">$cl-silver-8: #b0b0b0</div>
+                  </div>
+                </div>
+              </div>
+              <h3>Color Gray</h3>
+              <div class="row">
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #808080; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray: #808080</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #ababab; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-1: #ababab</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #aaa; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-2: #aaa</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #a6a6a6; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-3: #a6a6a6</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #a1a1a1; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-4: #a1a1a1</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #999; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-5: #999</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #9d9d9d; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-6: #9d9d9d</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #8c8c8c; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-7: #8c8c8c</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #8a8a8a; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-8: #8a8a8a</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #878787; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-9: #878787</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #7b7b7b; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-10: #7b7b7b</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #737373; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-11: #737373</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #707070; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff">$cl-gray-12: #707070</div>
+                  </div>
+                </div>
+              </div>
+              <h3>Color Dark Gray</h3>
+              <div class="row">
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #6b6b6b; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff;">$cl-darkgray-1: #6b6b6b</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #696969; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff;">$cl-darkgray-1: #696969</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #666; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff;">$cl-darkgray-1: #666</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #5f5f5f; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff;">$cl-darkgray-1: #5f5f5f</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #5a5a5a; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff;">$cl-darkgray-1: #5a5a5a</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #595858; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff;">$cl-darkgray-1: #595858</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #504e4e; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff;">$cl-darkgray-1: #504e4e</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #424242; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff;">$cl-darkgray-1: #424242</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="code-example">
+                    <div class="demo" style="background-color: #272727; width: 100%; height: 40px; line-height: 40px; padding: 0 1.5rem; color: #fff;">$cl-darkgray-1: #272727</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="v-pills-buttons" aria-labelledby="v-pills-buttons-tab">
+              <h2>Buttons Basic</h2>
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary">Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--secondary">Secondary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Secondary',
+  type: 'secondary'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--warning">Warning
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Warning',
+  type: 'warning'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--danger">Danger
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Danger',
+  type: 'danger'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--success">Success
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Success',
+  type: 'success'
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h2>Button Icon</h2>
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary"><i class="icon icon-left zmdi zmdi-cloud-done"></i>Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary',
+  iconFont: 'cloud-done'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--secondary"><i class="icon icon-left zmdi zmdi-globe"></i>Secondary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Secondary',
+  type: 'secondary',
+  iconFont: 'globe'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--warning"><i class="icon icon-left zmdi zmdi-alert-triangle"></i>Warning
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Warning',
+  type: 'warning',
+  iconFont: 'alert-triangle'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--danger"><i class="icon icon-left zmdi zmdi-alert-circle"></i>Danger
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Danger',
+  type: 'danger',
+  iconFont: 'alert-circle'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--success"><i class="icon icon-left zmdi zmdi-check"></i>Success
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Success',
+  type: 'success',
+  iconFont: 'check'
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h2>Button Size</h2>
+              <h3>Standard</h3>
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--secondary button--xs">Secondary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Secondary',
+  type: 'secondary',
+  size: 'xs'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--secondary button--sm">Secondary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Secondary',
+  type: 'secondary',
+  size: 'sm'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--secondary button--lg">Secondary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Secondary',
+  type: 'secondary',
+  size: 'lg'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--secondary button--xl">Secondary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Secondary',
+  type: 'secondary',
+  size: 'xl'
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h3>With Icons</h3>
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary button--xs"><i class="icon icon-left zmdi zmdi-cloud-done"></i>Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary',
+  size: 'xs',
+  iconFont: 'cloud-done'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary button--sm"><i class="icon icon-left zmdi zmdi-cloud-done"></i>Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary',
+  size: 'sm',
+  iconFont: 'cloud-done'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary button--lg"><i class="icon icon-left zmdi zmdi-cloud-done"></i>Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary',
+  size: 'lg',
+  iconFont: 'cloud-done'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary button--xl"><i class="icon icon-left zmdi zmdi-cloud-done"></i>Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary',
+  size: 'xl',
+  iconFont: 'cloud-done'
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h2>Button Rounded</h2>
+              <h3>Standard</h3>
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary button--rounded">Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--secondary button--rounded">Secondary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Secondary',
+  type: 'secondary',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--warning button--rounded">Warning
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Warning',
+  type: 'warning',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--danger button--rounded">Danger
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Danger',
+  type: 'danger',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--success button--rounded">Success
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Success',
+  type: 'success',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h3>With Icons</h3>
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary button--rounded"><i class="icon icon-left zmdi zmdi-cloud-done"></i>Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary',
+  iconFont: 'cloud-done',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--secondary button--rounded"><i class="icon icon-left zmdi zmdi-globe"></i>Secondary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Secondary',
+  type: 'secondary',
+  iconFont: 'globe',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--warning button--rounded"><i class="icon icon-left zmdi zmdi-alert-triangle"></i>Warning
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Warning',
+  type: 'warning',
+  iconFont: 'alert-triangle',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--danger button--rounded"><i class="icon icon-left zmdi zmdi-alert-circle"></i>Danger
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Danger',
+  type: 'danger',
+  iconFont: 'alert-circle',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--success button--rounded"><i class="icon icon-left zmdi zmdi-check"></i>Success
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Success',
+  type: 'success',
+  iconFont: 'check',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h3>With Different Size</h3>
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary button--xs button--rounded">Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary',
+  size: 'xs',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary button--sm button--rounded">Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary',
+  size: 'sm',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary button--lg button--rounded">Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary',
+  size: 'lg',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <button class="btn button button--primary button--xl button--rounded">Primary
+                      </button>
+                    </div>
+                    <pre><code>+buttons({
+  text: 'Primary',
+  type: 'primary',
+  size: 'xl',
+  isCircle: true
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="v-pills-input" aria-labelledby="v-pills-input-tab">
+              <h2>Input Basic</h2>
+              <div class="row">
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-text">Input Text</label>
+                          <input class="form-control" type="text" id="input-text" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field({
+    label: 'Input Text',
+    id: 'input-text',
+    type: 'text',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-text-placeholder">Input Text Placeholder</label>
+                          <input class="form-control" type="text" id="input-text-placeholder" placeholder="Placeholder Input Field" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field({
+    label: 'Input Text',
+    id: 'input-text',
+    type: 'text',
+    placeholder: 'Placeholder Input Field'
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-email">Input Email</label>
+                          <input class="form-control" type="email" id="input-email" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field({
+    label: 'Input Email',
+    id: 'input-email',
+    type: 'email',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-password">Input Password</label>
+                          <input class="form-control" type="password" id="input-password" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field({
+    label: 'Input Password',
+    id: 'input-password',
+    type: 'password',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-text-readonly">Input Readonly</label>
+                          <input class="form-control" type="text" id="input-text-readonly" value="Readonly Input Field" readonly="readonly" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field-readonly({
+    label: 'Input Readonly',
+    id: 'input-text-readonly',
+    type: 'text',
+    value: 'Readonly Input Field'
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-text-disabled">Input Disabled</label>
+                          <input class="form-control" type="text" id="input-text-disabled" placeholder="Disabled Input Field" disabled="disabled" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field-disabled({
+    label: 'Input Disabled',
+    id: 'input-text-disabled',
+    type: 'text',
+    value: 'Disabled Input Field'
+  })</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h2>Input Size</h2>
+              <div class="row">
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label">Input Large</label>
+                          <input class="form-control form-control--lg" type="text" value="Large Input" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field({
+    label: 'Input Large',
+    type: 'text',
+    value: 'Large Input',
+    size: 'lg',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label">Input Default</label>
+                          <input class="form-control" type="text" value="Default Input" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field({
+    label: 'Input Default',
+    type: 'text',
+    value: 'Default Input',
+    size: '',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label">Input Small</label>
+                          <input class="form-control form-control--sm" type="text" value="Small Input" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field({
+    label: 'Input Small',
+    type: 'text',
+    value: 'Small Input',
+    size: 'sm',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label">Input Extra Small</label>
+                          <input class="form-control form-control--xs" type="text" value="Extra Small Input" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field({
+    label: 'Input Extra Small',
+    type: 'text',
+    value: 'Extra Small Input',
+    size: 'xs',
+  })</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h2>Input Add-on</h2>
+              <div class="row">
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-add-on">Input Add-on Before</label>
+                          <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">@</span></div>
+                            <input class="form-control" type="text" id="input-add-on" />
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +input-add-on-before({
+    label: 'Input Add-on Before',
+    id: 'input-add-on',
+    type: 'text',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-add-on-1">Input Add-on After</label>
+                          <div class="input-group">
+                            <input class="form-control" type="text" id="input-add-on-1" />
+                            <div class="input-group-append"><span class="input-group-text">.00</span></div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +input-add-on-after({
+    label: 'Input Add-on After',
+    id: 'input-add-on-1',
+    type: 'text',
+    textAddon: '.00',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-add-on-checkbox">Input Add-on Checkbox</label>
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <div class="input-checkbox-custom">
+                                  <input class="checkbox-custom" type="checkbox" id="add-on-checkbox" />
+                                  <label class="checkbox-label-custom" for="add-on-checkbox"></label>
+                                </div>
+                              </div>
+                            </div>
+                            <input class="form-control" type="text" id="input-add-on-checkbox" />
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +input-add-on-checkbox({
+    label: 'Input Add-on Checkbox',
+    id: 'input-add-on-checkbox',
+    type: 'text',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-add-on-radio">Input Add-on Radio</label>
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <label class="input-radio-custom" for="add-on-radio">
+                                  <input class="radio-custom" type="radio" id="add-on-radio" /><span class="radio-label-custom"></span>
+                                </label>
+                              </div>
+                            </div>
+                            <input class="form-control" type="text" id="input-add-on-radio" />
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +input-add-on-radio({
+    label: 'Input Add-on Radio',
+    id: 'input-add-on-radio',
+    type: 'text',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-add-on-button">Input Add-on Button</label>
+                          <div class="input-group">
+                            <input class="form-control" type="text" id="input-add-on-button" />
+                            <div class="input-group-append">
+                              <button class="btn button button--primary" type="button">Go!</button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +input-add-on-button({
+    label: 'Input Add-on Button',
+    id: 'input-add-on-button',
+    type: 'text',
+    textAddon: 'Go!',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label class="form-label" for="input-add-on-button-dropdown">Input Add-on Button Dropdown</label>
+                          <div class="input-group">
+                            <input class="form-control" type="text" id="input-add-on-button-dropdown" />
+                            <div class="input-group-append">
+                              <button class="btn button button--primary dropdown-toggle" type="button" data-toggle="dropdown">Action</button>
+                              <div class="dropdown-menu"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item" href="#">Separated link</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +input-add-on-button-dropdown({
+    label: 'Input Add-on Button Dropdown',
+    id: 'input-add-on-button-dropdown',
+    type: 'text',
+    textAddon: 'Action',
+  })</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h2>Input Validation</h2>
+              <div class="row">
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom form-valid">
+                          <label class="form-label">Success</label>
+                          <input class="form-control" type="text" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field-valid({
+    label: 'Success',
+    type: 'text'
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom form-invalid">
+                          <label class="form-label">Error</label>
+                          <input class="form-control" type="text" />
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field-invalid({
+    label: 'Error',
+    type: 'text'
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom form-valid">
+                          <label class="form-label">Success With Feedback</label>
+                          <input class="form-control" type="text" />
+                          <div class="valid-feedback">Looks good!</div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field-valid({
+    label: 'Success With Feedback',
+    type: 'text',
+    feedback: 'Looks good!'
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom form-invalid">
+                          <label class="form-label">Error With Feedback</label>
+                          <input class="form-control" type="text" />
+                          <div class="invalid-feedback">Please provide a valid.</div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field-invalid({
+    label: 'Error With Feedback',
+    type: 'text',
+    feedback: 'Please provide a valid.'
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom form-valid">
+                          <label class="form-label">Input Add-on Success</label>
+                          <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">@</span></div>
+                            <input class="form-control" type="text" />
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +input-add-on-before({
+    label: 'Input Add-on Success',
+    type: 'text',
+  })(class="form-valid")</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom form-invalid">
+                          <label class="form-label">Input Add-on Error</label>
+                          <div class="input-group">
+                            <div class="input-group-prepend"><span class="input-group-text">@</span></div>
+                            <input class="form-control" type="text" />
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +input-add-on({
+    label: 'Input Add-on Error',
+    type: 'text',
+  })(class="form-invalid")</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h2>Textarea</h2>
+              <div class="row">
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom form-area">
+                          <label class="form-label" for="textarea-1">Textarea</label>
+                          <textarea class="form-control" id="textarea-1" rows="5"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field({
+    label: 'Textarea',
+    id: 'textarea-1',
+    rows: '5',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom form-area">
+                          <label class="form-label" for="textarea-2">Textarea Disabled</label>
+                          <textarea class="form-control" id="textarea-2" rows="5" disabled="disabled"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  +group-input-field({
+    label: 'Textarea Disabled',
+    id: 'textarea-2',
+    rows: '5',
+    disabled: true,
+  })</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="v-pills-checkbox" aria-labelledby="v-pills-checkbox-tab">
+              <h2>Checkbox</h2>
+              <div class="row">
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <h4>Checkbox Normal</h4>
+                      <form class="form-custom">
+                        <div class="input-checkbox-custom">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox" id="option-0" checked="checked" />
+                          <label class="checkbox-label-custom" for="option-0">Option 1</label>
+                        </div>
+                        <div class="input-checkbox-custom">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox" id="option-1" />
+                          <label class="checkbox-label-custom" for="option-1">Option 2</label>
+                        </div>
+                        <div class="input-checkbox-custom">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox" id="option-2" />
+                          <label class="checkbox-label-custom" for="option-2">Option 3</label>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>+group-input-checkbox({
+  name: 'checkbox',
+  id: 'option-0',
+  label: 'Option 1',
+})
+</code><code>+group-input-checkbox({
+  name: 'checkbox',
+  id: 'option-1',
+  label: 'Option 2',
+})
+</code><code>+group-input-checkbox({
+  name: 'checkbox',
+  id: 'option-2',
+  label: 'Option 3',
+})
+</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <h4>Checkbox Inline</h4>
+                      <form class="form-custom">
+                        <div class="input-checkbox-custom input-checkbox-custom--inline">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox-1" id="option-3" checked="checked" />
+                          <label class="checkbox-label-custom" for="option-3">Option 1</label>
+                        </div>
+                        <div class="input-checkbox-custom input-checkbox-custom--inline">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox-1" id="option-4" />
+                          <label class="checkbox-label-custom" for="option-4">Option 2</label>
+                        </div>
+                        <div class="input-checkbox-custom input-checkbox-custom--inline">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox-1" id="option-5" />
+                          <label class="checkbox-label-custom" for="option-5">Option 3</label>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>+group-input-checkbox({
+  name: 'checkbox-1',
+  id: 'option-3',
+  label: 'Option 1',
+})(class="input-checkbox-custom--inline")
+</code><code>+group-input-checkbox({
+  name: 'checkbox-1',
+  id: 'option-4',
+  label: 'Option 2',
+})(class="input-checkbox-custom--inline")
+</code><code>+group-input-checkbox({
+  name: 'checkbox-1',
+  id: 'option-5',
+  label: 'Option 3',
+})(class="input-checkbox-custom--inline")
+</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <h4>Checkbox Full Color</h4>
+                      <form class="form-custom">
+                        <div class="input-checkbox-custom">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox-2" id="option-6" checked="checked" />
+                          <label class="checkbox-label-custom checkbox-label-color" for="option-6">Option 1</label>
+                        </div>
+                        <div class="input-checkbox-custom">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox-2" id="option-7" />
+                          <label class="checkbox-label-custom checkbox-label-color" for="option-7">Option 2</label>
+                        </div>
+                        <div class="input-checkbox-custom">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox-2" id="option-8" />
+                          <label class="checkbox-label-custom checkbox-label-color" for="option-8">Option 3</label>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>+group-input-checkbox({
+  name: 'checkbox-2',
+  id: 'option-6',
+  label: 'Option 1',
+  isColor: true,
+})
+</code><code>+group-input-checkbox({
+  name: 'checkbox-2',
+  id: 'option-7',
+  label: 'Option 2',
+  isColor: true,
+})
+</code><code>+group-input-checkbox({
+  name: 'checkbox-2',
+  id: 'option-8',
+  label: 'Option 3',
+  isColor: true,
+})
+</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <h4>Checkbox Validation</h4>
+                      <form class="form-custom">
+                        <div class="input-checkbox-custom checkbox-valid">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox-3" id="checkbox-9" checked="checked" />
+                          <label class="checkbox-label-custom" for="checkbox-9">Option 1</label>
+                        </div>
+                        <div class="input-checkbox-custom checkbox-invalid">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox-3" id="checkbox-10" />
+                          <label class="checkbox-label-custom" for="checkbox-10">Option 2</label>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>+group-input-checkbox-valid({
+   name: 'checkbox-3',
+  id: 'checkbox-9',
+  label: 'Option 1',
+  checked: true,
+})
++group-input-checkbox-invalid({
+  name: 'checkbox-3',
+  id: 'checkbox-10',
+  label: 'Option 2',
+})
+</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <h4>Checkbox Validation Full Color</h4>
+                      <form class="form-custom">
+                        <div class="input-checkbox-custom checkbox-valid">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox-4" id="checkbox-11" checked="checked" />
+                          <label class="checkbox-label-custom checkbox-label-color" for="checkbox-11">Option 1</label>
+                        </div>
+                        <div class="input-checkbox-custom checkbox-invalid">
+                          <input class="checkbox-custom" type="checkbox" name="checkbox-4" id="checkbox-12" />
+                          <label class="checkbox-label-custom checkbox-label-color" for="checkbox-12">Option 2</label>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>+group-input-checkbox-valid({
+   name: 'checkbox-4',
+  id: 'checkbox-11',
+  label: 'Option 1',
+  checked: true,
+  isColor: true,
+})
++group-input-checkbox-invalid({
+  name: 'checkbox-4',
+  id: 'checkbox-12',
+  label: 'Option 2',
+  isColor: true,
+})
+</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="v-pills-radio-button" aria-labelledby="v-pills-radio-button-tab">
+              <h2>Radio-Button</h2>
+              <div class="row">
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <h4>Radio-Button Normal</h4>
+                      <form class="form-custom">
+                        <label class="input-radio-custom">
+                          <input class="radio-custom" type="radio" name="radioButton" id="radio-1" checked="checked" /><span class="radio-label-custom">Option 1</span>
+                        </label>
+                        <label class="input-radio-custom">
+                          <input class="radio-custom" type="radio" name="radioButton" id="radio-2" /><span class="radio-label-custom">Option 2</span>
+                        </label>
+                        <label class="input-radio-custom">
+                          <input class="radio-custom" type="radio" name="radioButton" id="radio-3" /><span class="radio-label-custom">Option 3</span>
+                        </label>
+                      </form>
+                    </div>
+                    <pre><code>+group-input-radio({
+  name: 'radioButton',
+  id: 'radio-1',
+  label: 'Option 1',
+})
+</code><code>+group-input-radio({
+  name: 'radioButton',
+  id: 'radio-2',
+  label: 'Option 2',
+})
+</code><code>+group-input-radio({
+  name: 'radioButton',
+  id: 'radio-3',
+  label: 'Option 3',
+})
+</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <h4>Radio-Button Inline</h4>
+                      <form class="form-custom">
+                        <label class="input-radio-custom input-radio-custom--inline">
+                          <input class="radio-custom" type="radio" name="radioButton-1" id="radio-4" checked="checked" /><span class="radio-label-custom">Option 1</span>
+                        </label>
+                        <label class="input-radio-custom input-radio-custom--inline">
+                          <input class="radio-custom" type="radio" name="radioButton-1" id="radio-5" /><span class="radio-label-custom">Option 2</span>
+                        </label>
+                        <label class="input-radio-custom input-radio-custom--inline">
+                          <input class="radio-custom" type="radio" name="radioButton-1" id="radio-6" /><span class="radio-label-custom">Option 3</span>
+                        </label>
+                      </form>
+                    </div>
+                    <pre><code>+group-input-radio({
+  name: 'radioButton-1',
+  id: 'radio-4',
+  label: 'Option 1',
+})(class="input-radio-custom--inline")
+</code><code>+group-input-radio({
+  name: 'radioButton-1',
+  id: 'radio-5',
+  label: 'Option 2',
+})(class="input-radio-custom--inline")
+</code><code>+group-input-radio({
+  name: 'radioButton-1',
+  id: 'radio-6',
+  label: 'Option 3',
+})(class="input-radio-custom--inline")
+</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <h4>Radio-Button Full Color</h4>
+                      <form class="form-custom">
+                        <label class="input-radio-custom">
+                          <input class="radio-custom" type="radio" name="radioButton-2" id="radio-7" checked="checked" /><span class="radio-label-custom radio-label-color">Option 1</span>
+                        </label>
+                        <label class="input-radio-custom">
+                          <input class="radio-custom" type="radio" name="radioButton-2" id="radio-8" /><span class="radio-label-custom radio-label-color">Option 2</span>
+                        </label>
+                        <label class="input-radio-custom">
+                          <input class="radio-custom" type="radio" name="radioButton-2" id="radio-9" /><span class="radio-label-custom radio-label-color">Option 3</span>
+                        </label>
+                      </form>
+                    </div>
+                    <pre><code>+group-input-radio({
+  name: 'radioButton-2',
+  id: 'radio-7',
+  label: 'Option 1',
+  isColor: true,
+})
+</code><code>+group-input-radio({
+  name: 'radioButton-2',
+  id: 'radio-8',
+  label: 'Option 2',
+  isColor: true,
+})
+</code><code>+group-input-radio({
+  name: 'radioButton-2',
+  id: 'radio-9',
+  label: 'Option 3',
+  isColor: true,
+})
+</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <h4>Radio-Button Icon</h4>
+                      <form class="form-custom">
+                        <label class="input-radio-custom input-radio-custom--icon input-radio-custom--inline">
+                          <input class="radio-custom" type="radio" name="radioIcon" id="icon-1" checked="checked" /><span class="radio-icon-custom"><i class="zmdi zmdi-female"></i></span>
+                        </label>
+                        <label class="input-radio-custom input-radio-custom--icon input-radio-custom--inline">
+                          <input class="radio-custom" type="radio" name="radioIcon" id="icon-2" /><span class="radio-icon-custom"><i class="zmdi zmdi-male-alt"></i></span>
+                        </label>
+                      </form>
+                    </div>
+                    <pre><code>+group-input-radio-icon({
+  name: 'radioIcon',
+  id: 'icon-1',
+  icon: 'female',
+})
+</code><code>+group-input-radio-icon({
+  name: 'radioIcon',
+  id: 'icon-2',
+  icon: 'male-alt',
+})
+</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <h4>Radio-Button Validation</h4>
+                      <form class="form-custom">
+                        <label class="input-radio-custom radio-valid">
+                          <input class="radio-custom" type="radio" name="radioButton-3" id="radio-10" checked="checked" /><span class="radio-label-custom">Option 1</span>
+                        </label>
+                        <label class="input-radio-custom radio-invalid">
+                          <input class="radio-custom" type="radio" name="radioButton-3" id="radio-11" /><span class="radio-label-custom">Option 2</span>
+                        </label>
+                      </form>
+                    </div>
+                    <pre><code>+group-input-radio-valid({
+  name: 'radioButton-3',
+  id: 'radio-10',
+  label: 'Option 1',
+  checked: true,
+})
++group-input-radio-invalid({
+   name: 'radioButton-3',
+  id: 'radio-11',
+  label: 'Option 2',
+})
+</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <h4>Radio-Button Validation Full Color</h4>
+                      <form class="form-custom">
+                        <label class="input-radio-custom radio-valid">
+                          <input class="radio-custom" type="radio" name="radioButton-4" id="radio-12" checked="checked" /><span class="radio-label-custom radio-label-color">Option 1</span>
+                        </label>
+                        <label class="input-radio-custom radio-invalid">
+                          <input class="radio-custom" type="radio" name="radioButton-4" id="radio-13" /><span class="radio-label-custom radio-label-color">Option 2</span>
+                        </label>
+                      </form>
+                    </div>
+                    <pre><code>+group-input-radio-valid({
+  name: 'radioButton-3',
+  id: 'radio-10',
+  label: 'Option 1',
+  checked: true,
+  isColor: true
+})
++group-input-radio-invalid({
+   name: 'radioButton-3',
+  id: 'radio-11',
+  label: 'Option 2',
+  isColor: true
+})
+</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="v-pills-switch" aria-labelledby="v-pills-switch-tab">
+              <h2>Switch</h2>
+              <h4>Switch Off/On</h4>
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switch-off" name="switch-off" />
+                        <label class="switch-show" for="switch-off" data-on="ON" data-off="OFF"></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-switch({
+  id: 'switch-off',
+  name: 'switch-off',
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switch-on" name="switch-on" checked="checked" />
+                        <label class="switch-show" for="switch-on" data-on="ON" data-off="OFF"></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-switch({
+  id: 'switch-no',
+  name: 'switch-no',
+  isOn: true
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h4>Switch Type</h4>
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switch-primay" name="switch-primay" checked="checked" />
+                        <label class="switch-show" for="switch-primay" data-on="ON" data-off="OFF"></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-switch({
+  id: 'switch-primay',
+  name: 'switch-primay',
+  type: '',
+  isOn: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switch-success" name="switch-success" checked="checked" />
+                        <label class="switch-show switch-show--success" for="switch-success" data-on="ON" data-off="OFF"></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-switch({
+  id: 'switch-success',
+  name: 'switch-success',
+  type: 'success',
+  isOn: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switch-warning" name="switch-warning" checked="checked" />
+                        <label class="switch-show switch-show--warning" for="switch-warning" data-on="ON" data-off="OFF"></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-switch({
+  id: 'switch-warning',
+  name: 'switch-warning',
+  type: 'warning',
+  isOn: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switch-danger" name="switch-danger" checked="checked" />
+                        <label class="switch-show switch-show--danger" for="switch-danger" data-on="ON" data-off="OFF"></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-switch({
+  id: 'switch-danger',
+  name: 'switch-danger',
+  type: 'danger',
+  isOn: true
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h4>Switch Size</h4>
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switch-xs" name="switch-xs" checked="checked" />
+                        <label class="switch-show switch-show--xs" for="switch-xs" data-on="ON" data-off="OFF"></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-switch({
+  id: 'switch-xs',
+  name: 'switch-xs',
+  size: 'xs',
+  isOn: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switch-sm" name="switch-sm" checked="checked" />
+                        <label class="switch-show switch-show--sm" for="switch-sm" data-on="ON" data-off="OFF"></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-switch({
+  id: 'switch-sm',
+  name: 'switch-sm',
+  size: 'sm',
+  isOn: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switch-default" name="switch-default" checked="checked" />
+                        <label class="switch-show" for="switch-default" data-on="ON" data-off="OFF"></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-switch({
+  id: 'switch-default',
+  name: 'switch-default',
+  size: '',
+  isOn: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switch-lg" name="switch-lg" checked="checked" />
+                        <label class="switch-show switch-show--lg" for="switch-lg" data-on="ON" data-off="OFF"></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-switch({
+  id: 'switch-lg',
+  name: 'switch-lg',
+  size: 'lg',
+  isOn: true
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h4>Switch Yes/No</h4>
+              <div class="row">
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switchYesNo-off" name="switchYesNo-off" />
+                        <label class="switch-show" for="switchYesNo-off" data-on="YES" data-off="NO"></label>
+                      </div>
+                    </div>
+                    <pre><code>+yes-no-switch({
+  id: 'switchYesNo-off',
+  name: 'switchYesNo-off',
+  isOn: 'false'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="switch-button">
+                        <input class="switch-control" type="checkbox" id="switchYesNo-on" name="switchYesNo-on" checked="checked" />
+                        <label class="switch-show" for="switchYesNo-on" data-on="YES" data-off="NO"></label>
+                      </div>
+                    </div>
+                    <pre><code>+yes-no-switch({
+  id: 'switchYesNo-on',
+  name: 'switchYesNo-on',
+  isOn: 'true'
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="v-pills-selectbox" aria-labelledby="v-pills-selectbox-tab">
+              <h2>Selecbox</h2>
+              <div class="row">
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label for="number">Basic Select</label>
+                          <select class="form-control" id="number">
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  -
+    var options = [
+      { value: '1', display: 'One' },
+      { value: '2', display: 'Two' },
+      { value: '3', display: 'Three' },
+      { value: '4', display: 'Four' }
+    ];
+  +group-selectbox({
+    id: 'number',
+    label: 'Basic Select',
+    options
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label for="number-2">Basic Select Multiple</label>
+                          <select class="form-control" id="number-2" multiple="multiple">
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  -
+    var options = [
+      { value: '1', display: 'One' },
+      { value: '2', display: 'Two' },
+      { value: '3', display: 'Three' },
+      { value: '4', display: 'Four' }
+    ];
+  +group-selectbox({
+    id: 'number-2',
+    label: 'Basic Select Multiple',
+    options,
+    isMultiple: true
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label for="number-3">Select With Disabled Option</label>
+                          <select class="form-control" id="number-3">
+                            <option value="1">One</option>
+                            <option value="2" disabled="disabled">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  -
+    var options = [
+      { value: '1', display: 'One' },
+      { value: '2', display: 'Two', disabled: true },
+      { value: '3', display: 'Three' },
+      { value: '4', display: 'Four' }
+    ];
+  +group-selectbox({
+    id: 'number-3',
+    label: 'Select With Disabled Option',
+    options
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label for="number-4">Select With Selected Option</label>
+                          <select class="form-control" id="number-4">
+                            <option value="1">One</option>
+                            <option value="2" selected="selected">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  -
+    var options = [
+      { value: '1', display: 'One' },
+      { value: '2', display: 'Two', selected: true },
+      { value: '3', display: 'Three' },
+      { value: '4', display: 'Four' }
+    ];
+  +group-selectbox({
+    id: 'number-4',
+    label: 'Select With Selected Option',
+    options
+  })</code></pre>
+                  </div>
+                </div>
+              </div>
+              <h2>Select2</h2>
+              <div class="row">
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label for="number-5">Select With Selected Option</label>
+                          <select class="form-control js-select2" id="number-5">
+                            <option value="1">One</option>
+                            <option value="2" selected="selected">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  -
+    var options = [
+      { value: '1', display: 'One' },
+      { value: '2', display: 'Two', selected: true },
+      { value: '3', display: 'Three' },
+      { value: '4', display: 'Four' }
+    ];
+  +group-selectbox-select2({
+    id: 'number-4',
+    label: 'Select With Selected Option',
+    options
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form>
+                        <div class="form-group form-custom">
+                          <label for="number-6">Select Multiple With Selected Option</label>
+                          <select class="form-control js-select2" id="number-6" multiple="multiple">
+                            <option value="1">One</option>
+                            <option value="2" selected="selected">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form
+  -
+    var options = [
+      { value: '1', display: 'One' },
+      { value: '2', display: 'Two', selected: true },
+      { value: '3', display: 'Three' },
+      { value: '4', display: 'Four' }
+    ];
+  +group-selectbox-select2({
+    id: 'number-4',
+    label: 'Select Multiple With Selected Option',
+    options,
+    isMultiple: true
+  })</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="v-pills-file" aria-labelledby="v-pills-file-tab">
+              <h2>File Upload</h2>
+              <div class="row">
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="form-group form-custom">
+                        <input class="button-file-custom js-input-file" type="file" name="file-1" id="file-1" multiple="multiple" />
+                        <label class="file-label-custom" for="file-1"><i class="zmdi zmdi-upload"></i><span>Browse files...</span></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-file-upload({
+  name: 'file-1',
+  id: 'file-1',
+  label: 'Browse files...',
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="form-group form-custom">
+                        <input class="button-file-custom js-input-file" type="file" name="file-2" id="file-2" multiple="multiple" />
+                        <label class="file-label-custom button--primary" for="file-2"><i class="zmdi zmdi-upload"></i><span>Browse files...</span></label>
+                      </div>
+                    </div>
+                    <pre><code>+button-file-upload({
+  name: 'file-2',
+  id: 'file-2',
+  label: 'Browse files...',
+  typeColor: 'primary'
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="form-group form-custom">
+                        <div class="input-group">
+                          <div class="input-group-prepend"><span class="input-group-text">Upload</span>
+                          </div>
+                          <div class="custom-file">
+                            <input class="custom-file-input js-input-file" type="file" name="file-3" id="file-3" />
+                            <label class="custom-file-label" for="file-3"><span>Choose file</span></label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <pre><code>+file-upload-custom-before({
+  name: 'file-3',
+  id: 'file-3',
+  label: 'Choose file',
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="form-group form-custom">
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <button class="btn button button--secondary">Button</button>
+                          </div>
+                          <div class="custom-file">
+                            <input class="custom-file-input js-input-file" type="file" name="file-4" id="file-4" />
+                            <label class="custom-file-label" for="file-4"><span>Choose file</span></label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <pre><code>+file-upload-custom-before({
+  name: 'file-4',
+  id: 'file-4',
+  label: 'Choose file',
+  isButton: true
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="form-group form-custom">
+                        <div class="input-group">
+                          <div class="custom-file">
+                            <input class="custom-file-input js-input-file" type="file" name="file-5" id="file-5" />
+                            <label class="custom-file-label" for="file-5"><span>Choose file</span></label>
+                          </div>
+                          <div class="input-group-append"><span class="input-group-text">Upload</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <pre><code>+file-upload-custom-after({
+  name: 'file-5',
+  id: 'file-5',
+  label: 'Choose file',
+})</code></pre>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="code-example">
+                    <div class="demo">
+                      <div class="form-group form-custom">
+                        <div class="input-group">
+                          <div class="custom-file">
+                            <input class="custom-file-input js-input-file" type="file" name="file-6" id="file-6" />
+                            <label class="custom-file-label" for="file-6"><span>Choose file</span></label>
+                          </div>
+                          <div class="input-group-append">
+                            <button class="btn button button--secondary">Button</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <pre><code>+file-upload-custom-after({
+  name: 'file-6',
+  id: 'file-6',
+  label: 'Choose file',
+  isButton: true
+})</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" role="tabpanel" id="v-pills-date-picker" aria-labelledby="v-pills-date-picker-tab">
+              <h2>Date Picker</h2>
+              <div class="row">
+                <div class="col-4">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form class="form-custom">
+                        <div class="form-group form-custom">
+                          <label for="datepicker">Basic Date Time Picker</label>
+                          <div class="input-group">
+                            <input class="form-control js-date-picker" data-date-format="dd MM yyyy - hh:ii" id="datepicker" type="text" placeholder="DD/MM/YYYY - HH:MM" />
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form.form-custom
+  +date-picker({
+    id: 'date-picker1',
+    label: 'Basic Date Time Picker',
+    placeholder: 'DD/MM/YYYY - HH:MM'
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form class="form-custom">
+                        <div class="form-group form-custom input-date-picker">
+                          <label for="datepicker-icon-readonly">Date Time Picker Readonly</label>
+                          <div class="input-group">
+                            <input class="form-control js-date-picker" id="datepicker-icon-readonly" type="text" data-date-format="dd MM yyyy - hh:ii" readonly="readonly" />
+                            <div class="input-group-append">
+                              <div class="input-group-text"><i class="zmdi zmdi-calendar"></i></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form.form-custom
+  +date-picker-icon({
+    id: 'date-picker2',
+    label: 'Date Time Picker Readonly',
+    readonly: true,
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form class="form-custom">
+                        <div class="form-group form-custom input-date-picker">
+                          <label for="onlydatepicker">Only Date Picker</label>
+                          <div class="input-group">
+                            <input class="form-control js-date-picker" id="onlydatepicker" type="text" data-min-view="2" data-date-format="dd MM yyyy" />
+                            <div class="input-group-append">
+                              <div class="input-group-text"><i class="zmdi zmdi-calendar"></i></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form.form-custom
+  +date-picker-min-view({
+    id: 'date-picker2',
+    label: 'Date Time Picker Readonly',
+    dateFormat: 'dd MM yyyy',
+    minView: '2'
+  })</code></pre>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form class="form-custom">
+                        <div class="form-group form-custom input-date-picker">
+                          <label for="datetimeview-1">Decade View</label>
+                          <div class="input-group">
+                            <input class="form-control js-date-picker" id="datetimeview-1" type="text" data-view="4" data-date-format="dd MM yyyy - hh:ii" />
+                            <div class="input-group-append">
+                              <div class="input-group-text"><i class="zmdi zmdi-calendar"></i></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form.form-custom
+  +date-picker-start-view({
+    id: 'datetimeview-1',
+    label: 'Decade View',
+    startView: '4',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form class="form-custom">
+                        <div class="form-group form-custom input-date-picker">
+                          <label for="datetimeview-2">Year View</label>
+                          <div class="input-group">
+                            <input class="form-control js-date-picker" id="datetimeview-2" type="text" data-view="3" data-date-format="dd MM yyyy - hh:ii" />
+                            <div class="input-group-append">
+                              <div class="input-group-text"><i class="zmdi zmdi-calendar"></i></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form.form-custom
+  +date-picker-start-view({
+    id: 'datetimeview-2',
+    label: 'Year View',
+    startView: '3',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form class="form-custom">
+                        <div class="form-group form-custom input-date-picker">
+                          <label for="datetimeview-3">Month View</label>
+                          <div class="input-group">
+                            <input class="form-control js-date-picker" id="datetimeview-3" type="text" data-view="2" data-date-format="dd MM yyyy - hh:ii" />
+                            <div class="input-group-append">
+                              <div class="input-group-text"><i class="zmdi zmdi-calendar"></i></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form.form-custom
+  +date-picker-start-view({
+    id: 'datetimeview-3',
+    label: 'Month View',
+    startView: '2',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form class="form-custom">
+                        <div class="form-group form-custom input-date-picker">
+                          <label for="datetimeview-4">Day View</label>
+                          <div class="input-group">
+                            <input class="form-control js-date-picker" id="datetimeview-4" type="text" data-view="1" data-date-format="dd MM yyyy - hh:ii" />
+                            <div class="input-group-append">
+                              <div class="input-group-text"><i class="zmdi zmdi-calendar"></i></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form.form-custom
+  +date-picker-start-view({
+    id: 'datetimeview-4',
+    label: 'Day View',
+    startView: '1',
+  })</code></pre>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="code-example">
+                    <div class="demo">
+                      <form class="form-custom">
+                        <div class="form-group form-custom input-date-picker">
+                          <label for="datetimeview-5">Hour View</label>
+                          <div class="input-group">
+                            <input class="form-control js-date-picker" id="datetimeview-5" type="text" data-view="0" data-date-format="dd MM yyyy - hh:ii" />
+                            <div class="input-group-append">
+                              <div class="input-group-text"><i class="zmdi zmdi-calendar"></i></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                    <pre><code>form.form-custom
+  +date-picker-start-view({
+    id: 'datetimeview-5',
+    label: 'Hour View',
+    startView: '0',
+  })</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><span class="scroll-top js-scroll-top"></span>
+    <div class="backdrop js-backdrop"></div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
